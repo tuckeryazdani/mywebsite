@@ -27,6 +27,7 @@
       <h1> Photos </h1>
       <a href="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" target="_blank" ><img src="https://github.com/user-attachments/assets/003af456-1171-477c-8e72-4243e2ce3736" class="profile" width="200" height="230" align="left"/></a>
       <a href="https://github.com/user-attachments/assets/95afd1e8-e8a3-4340-a61d-d7a437dfcfb5" target="_blank" ><img src="https://github.com/user-attachments/assets/95afd1e8-e8a3-4340-a61d-d7a437dfcfb5" width="200" height="230" align="left"/></a>
+      <a href="https://github.com/user-attachments/assets/888931a6-0389-412b-967b-9a0f51f20d61" target="_blank" ><img src="https://github.com/user-attachments/assets/888931a6-0389-412b-967b-9a0f51f20d61" width="200" height="230" align="left"/></a>
       <br>
   <center>
   <h2> Contact Information </h2>
