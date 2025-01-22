@@ -25,6 +25,7 @@
   <br>
       <br>
       <h1> Photos </h1>
+ <a href="https://github.com/user-attachments/assets/26d0bc70-4675-4cb0-bbea-b69fb36c20fc" target="_blank"><img src="https://github.com/user-attachments/assets/26d0bc70-4675-4cb0-bbea-b69fb36c20fc" width="200" height="230" class="photo" align="center"></a>
       <a href="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183260820-ddced16a-69c8-4948-85f7-5561e936ddfc.jpg" width="200" height="230" class="photo" align="center"></a>
       <a href="" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/183546849-cbfd48bd-bd0d-4e94-9fec-19e7b38bd67b.png"  width="200" height="230" class="photo" align="center"></a>
       <a href="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" target="_blank" ><img src="https://user-images.githubusercontent.com/84822334/148703247-771b3563-5673-49d2-910d-3812aa07511a.jpg" class="profile" width="200" height="230" align="left"/></a>
