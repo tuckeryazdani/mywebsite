@@ -44,11 +44,16 @@
     <th>Position</th>
     <th>Company</th>
     <th>Dates</th>
-  </tr>
+</tr>
+  <tr>
+  <td>Data Engineer</td>
+  <td>American College of Chest Physicians</td>
+  <td>July 2024 - Present</td>
+</tr>
   <tr>
     <td>Data Engineer</td>
     <td>StoneX</td>
-    <td>September 2022 - Present</td>
+    <td>September 2022 - December 2023</td>
   </tr>
   <tr>
     <td>Software Development Intern</td>
