@@ -25,49 +25,30 @@
 
   <!-- Projects Section -->
   <div class="projects">
-    <!-- Wall Street Bets Journal -->
+    <p>
+      Below is a collection of my projects showcasing my work as a software engineer and mathematician. These projects are automated using Python, various APIs, and other tools to solve real-world problems.
+    </p>
+    <!-- Project Entries -->
     <div class="project">
-      <h3><a href="https://github.com/tuckeryazdani/wsb_journal">The Wall Street Bets Journal (04/2022)</a></h3>
+      <h3>Wall Street Bets Journal</h3>
       <ul>
-        <li>Created a Python script that tracks stock mentions on WallStreetBets and provides stock market updates.</li>
-        <li>Integrated the Twitter API to automatically post weekly updates.</li>
-        <li>Automated the website update process, including adding tweets to the page and handling Git commands.</li>
-        <li>Enhanced error logging for smoother operation.</li>
-        <li>Added seasonal stock trend analysis using NASDAQ data.</li>
-        <li><a href="https://twitter.com/WSB_Journal" target="_blank">Twitter Account</a></li>
+        <li><strong>Description:</strong> A Python automation project to pull data from APIs, analyze stock trends, and post updates to Twitter.</li>
+        <li><strong>Features:</strong> Weekly stock analysis, historical price trends, and seasonal predictions.</li>
+        <li><strong>Links:</strong> 
+          <a href="https://twitter.com/WSB_Journal" target="_blank">Twitter</a> | 
+          <a href="https://github.com/tuckeryazdani/wsb_journal" target="_blank">Source Code</a>
+        </li>
       </ul>
     </div>
-    <!-- Personal Website -->
     <div class="project">
-      <h3><a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank">Portfolio: Personal Website (04/2022)</a></h3>
+      <h3>Example Project 2</h3>
       <ul>
-        <li>Built a personal website showcasing my education, experience, and projects.</li>
-        <li>Linked to the "Wall Street Bets Journal" Twitter feed for live updates.</li>
-        <li>Continuously improving and adding new features.</li>
-      </ul>
-    </div>
-    <!-- Senior Project -->
-    <div class="project">
-      <h3><a href="https://github.com/tuckeryazdani/SeniorProject2019">Senior Project: "Autonomizing Affine Digraph Ciphers" (12/2019)</a></h3>
-      <ul>
-        <li>Developed a Python program to decode Affine Digraph Ciphers using linear algebra and number theory.</li>
-        <li>Published a research paper outlining the project.</li>
-        <li>Presented findings to peers and professors at the University of West Georgia.</li>
-      </ul>
-    </div>
-    <!-- xlwings Financial Spreadsheet -->
-    <div class="project">
-      <h3><a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py">xlwings Financial Spreadsheet</a></h3>
-      <ul>
-        <li>Designed a Python script using the xlwings library to automate financial spreadsheet creation.</li>
-      </ul>
-    </div>
-    <!-- Advanced Algorithms Project -->
-    <div class="project">
-      <h3><a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022" target="_blank">Advanced Algorithms Project (03/2022)</a></h3>
-      <ul>
-        <li>Developed a chess engine in Python as part of the Advanced Algorithms course at Kennesaw State University.</li>
-        <li>Focused on implementing efficient algorithms and game strategies.</li>
+        <li><strong>Description:</strong> Placeholder for another project description.</li>
+        <li><strong>Features:</strong> Key highlights of the project go here.</li>
+        <li><strong>Links:</strong> 
+          <a href="#">Live Demo</a> | 
+          <a href="#">Source Code</a>
+        </li>
       </ul>
     </div>
   </div>
