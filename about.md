@@ -1,76 +1,149 @@
-<html lang="en"> 
-<link href="main.css" rel="stylesheet">
-<div class="topnav"> 
-  <a href="https://tuckeryazdani.github.io/">Home</a>
-  <a class="active" href="about.html">About</a>
-  <a href="projects.html">Projects</a>
-  <a href="twitter.html">Twitter</a>
-  </div>  
-<style>
-  table, th, td {
-    border: 0px;
-    table-layout: fixed;
-}
-</style>
-    <div align="left">
-    <p class="bio">
-      Software Engineer <br>
-      B.S. Mathematics (Concentration in Statistics)<br>
-    </p>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<h1> About Me </h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link href="main.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    .topnav {
+      background-color: #333;
+      overflow: hidden;
+      padding: 0.5rem 1rem;
+    }
+    .topnav a {
+      color: #f4f4f9;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      display: inline-block;
+    }
+    .topnav a:hover {
+      background-color: #575757;
+    }
+    .topnav a.active {
+      background-color: #0078d4;
+    }
+    .bio {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-top: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #0078d4;
+      color: white;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #0078d4;
+    }
+    p {
+      margin: 0.5rem 0;
+    }
+    .social {
+      margin: 0 10px;
+    }
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+  </style>
 </head>
 <body>
-  <link href="main.css" rel="stylesheet">
-  <h2>Introduction</h2>
-  <p> I am Tucker Yazdani, and this page will outline my education and experience. I graduated from the University of West Georgia with a B.S. in Mathematics with a concentration in statistics.</p>
-    <h2> Education </h2>
-    <table style="width:150%">
-  <tr>
-    <th>Degree</th>
-    <th>University</th>
-    <th>Date</th>
-  </tr>
-  <tr>
-    <td>B.S. in Mathematics (Concentration in Statistics) </td>
-    <td>University of West Georgia</td>
-    <td>December 2019</td>
-  </tr>
-</table>
-    <h2>Experience</h2>
-<table style="width:150%">
-  <tr>
-    <th>Position</th>
-    <th>Company</th>
-    <th>Dates</th>
-</tr>
-  <tr>
-  <td>Data Engineer</td>
-  <td>American College of Chest Physicians</td>
-  <td>July 2024 - Present</td>
-</tr>
-  <tr>
-    <td>Data Engineer</td>
-    <td>StoneX</td>
-    <td>September 2022 - December 2023</td>
-  </tr>
-  <tr>
-    <td>Software Development Intern</td>
-    <td>ArrayFire</td>
-    <td>March 2022 - April 2022</td>
-  </tr>
-  <tr>
-    <td>Data Engineer Intern (Contract)</td>
-    <td>Equifax</td>
-    <td>January 2022 - February 2022</td>
-  </tr>
-  </table>
+  <div class="topnav"> 
+    <a href="https://tuckeryazdani.github.io/">Home</a>
+    <a class="active" href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="twitter.html">Twitter</a>
+  </div>
 
-    <center>
-  <h2> Contact Information </h2>
-  <p>Personal Email: tuckeryazdani@gmail.com<br></p>
-    <h2> Links </h2>
-  <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn">
-  </a><a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub"></a>
-  </center>
+  <div class="content">
+    <div style="display: flex; align-items: center;">
+      <p class="bio">
+        <strong>Software Engineer</strong><br>
+        B.S. Mathematics (Concentration in Statistics)<br>
+      </p>
+    </div>
+    <h1>About Me</h1>
+    <h2>Introduction</h2>
+    <p>I am Tucker Yazdani, and this page will outline my education and experience. I graduated from the University of West Georgia with a B.S. in Mathematics with a concentration in statistics.</p>
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Degree</th>
+        <th>University</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td>B.S. in Mathematics (Concentration in Statistics)</td>
+        <td>University of West Georgia</td>
+        <td>December 2019</td>
+      </tr>
+    </table>
+    <h2>Experience</h2>
+    <table>
+      <tr>
+        <th>Position</th>
+        <th>Company</th>
+        <th>Dates</th>
+      </tr>
+      <tr>
+        <td>Data Engineer</td>
+        <td>American College of Chest Physicians</td>
+        <td>July 2024 - Present</td>
+      </tr>
+      <tr>
+        <td>Data Engineer</td>
+        <td>StoneX</td>
+        <td>September 2022 - December 2023</td>
+      </tr>
+      <tr>
+        <td>Software Development Intern</td>
+        <td>ArrayFire</td>
+        <td>March 2022 - April 2022</td>
+      </tr>
+      <tr>
+        <td>Data Engineer Intern (Contract)</td>
+        <td>Equifax</td>
+        <td>January 2022 - February 2022</td>
+      </tr>
+    </table>
+    <h2>Contact Information</h2>
+    <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
+    <h2>Links</h2>
+    <p>
+      <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/tuckeryazdani/" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub" alt="GitHub">
+      </a>
+    </p>
+  </div>
+</body>
+</html>
