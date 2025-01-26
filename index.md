@@ -73,7 +73,6 @@
         B.S. Mathematics (Concentration in Statistics)
       </p>
     </div>
-    
     <h1>Projects</h1>
     <a href="https://github.com/tuckeryazdani/wsb_journal">
       <h3>The Wall Street Bets Journal (04/2022)</h3>
@@ -87,7 +86,6 @@
       <li>More features coming soon.</li>
       <li>Twitter URL: <a href="https://twitter.com/WSB_Journal">Wall Street Bets Journal Twitter</a></li>
     </ul>
-
     <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank">
       <h3>Portfolio: Personal Website (04/2022)</h3>
     </a>
@@ -96,7 +94,6 @@
       <li>Added a Twitter page that gets updated with posts from "The Wall Street Bets Journal".</li>
       <li>More features coming soon.</li>
     </ul>
-
     <a href="https://github.com/tuckeryazdani/SeniorProject2019">
       <h3>Senior Project: “Autonomizing Affine Digraph Ciphers” (12/2019)</h3>
     </a>
@@ -105,21 +102,17 @@
       <li>Wrote a research paper outlining the project.</li>
       <li>Presented the project to an audience of peers and professors.</li>
     </ul>
-
     <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py">
       <h3>xlwings Financial Spreadsheet Creation</h3>
     </a>
     <ul>
       <li>Created a Python script to populate a financial spreadsheet using the xlwings library.</li>
     </ul>
-
     <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022" target="_blank">
       <h3>Advanced Algorithms Project: Kennesaw State University (03/2022)</h3>
     </a>
-
     <h2>Contact Information</h2>
     <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
-
     <h2>Links</h2>
     <p>
       <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
