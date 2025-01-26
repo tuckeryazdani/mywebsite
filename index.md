@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
+  <title>Personal Website</title>
   <link href="main.css" rel="stylesheet">
   <style>
     body {
@@ -36,81 +36,67 @@
       line-height: 1.8;
       margin-top: 1rem;
     }
+    .profile {
+      border-radius: 50%;
+      margin-right: 1rem;
+    }
+    .photos img {
+      margin: 1rem 1rem 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
     .social {
       margin: 0 10px;
     }
-    h2, h3 {
+    h2 {
+      margin-top: 2rem;
       color: #0078d4;
     }
-    ul {
-      padding-left: 1.5rem;
-    }
-    li {
-      margin-bottom: 0.5rem;
+    p {
+      margin: 0.5rem 0;
     }
     .content {
       max-width: 800px;
       margin: 0 auto;
       padding: 1rem;
     }
-    p {
-      margin: 0.5rem 0;
-    }
   </style>
 </head>
 <body>
   <div class="topnav"> 
-    <a href="https://tuckeryazdani.github.io/">Home</a>
+    <a class="active" href="https://tuckeryazdani.github.io/">Home</a>
     <a href="about.html">About</a>
-    <a class="active" href="projects.html">Projects</a>
+    <a href="projects.html">Projects</a>
     <a href="twitter.html">Twitter</a>
   </div>
 
   <div class="content">
-    <div align="left">
-      <p class="bio">
-        <strong>Software Engineer</strong><br>
-        B.S. Mathematics (Concentration in Statistics)
-      </p>
+    <div style="display: flex; align-items: center;">
+      <a href="https://github.com/user-attachments/assets/4f63acd8-40df-4fc3-ac0b-fe1e4e71d68e" target="_blank">
+        <img src="https://github.com/user-attachments/assets/4f63acd8-40df-4fc3-ac0b-fe1e4e71d68e" class="profile" width="150" height="150" alt="Profile Picture">
+      </a>
+      <div>
+        <p class="bio">
+          <strong>Software Engineer</strong><br>
+          B.S. Mathematics (Concentration in Statistics)<br>
+        </p>
+      </div>
     </div>
-    <h1>Projects</h1>
-    <a href="https://github.com/tuckeryazdani/wsb_journal">
-      <h3>The Wall Street Bets Journal (04/2022)</h3>
-    </a>
-    <ul>
-      <li>Created a Python script that returns frequencies of popular stocks mentioned in the WallStreetBets Reddit community and gets stock updates from Yahoo Finance.</li>
-      <li>Created a Twitter account that uses the Twitter API to automatically post weekly updates based on these insights.</li>
-      <li>Updated the script to automatically update the website with tweets and handle Git commands.</li>
-      <li>Added error logging for Twitter-related issues.</li>
-      <li>Now pulls data from NASDAQ to analyze seasonal stock trends.</li>
-      <li>More features coming soon.</li>
-      <li>Twitter URL: <a href="https://twitter.com/WSB_Journal">Wall Street Bets Journal Twitter</a></li>
-    </ul>
-    <a href="https://github.com/tuckeryazdani/tuckeryazdani.github.io" target="_blank">
-      <h3>Portfolio: Personal Website (04/2022)</h3>
-    </a>
-    <ul>
-      <li>Built a website outlining my education, experience, and projects.</li>
-      <li>Added a Twitter page that gets updated with posts from "The Wall Street Bets Journal".</li>
-      <li>More features coming soon.</li>
-    </ul>
-    <a href="https://github.com/tuckeryazdani/SeniorProject2019">
-      <h3>Senior Project: “Autonomizing Affine Digraph Ciphers” (12/2019)</h3>
-    </a>
-    <ul>
-      <li>Built a program in Python to decode Affine Digraph Ciphers using linear algebra and number theory.</li>
-      <li>Wrote a research paper outlining the project.</li>
-      <li>Presented the project to an audience of peers and professors.</li>
-    </ul>
-    <a href="https://github.com/tuckeryazdani/xlwings/blob/main/xlwings.py">
-      <h3>xlwings Financial Spreadsheet Creation</h3>
-    </a>
-    <ul>
-      <li>Created a Python script to populate a financial spreadsheet using the xlwings library.</li>
-    </ul>
-    <a href="https://github.com/tuckeryazdani/ChessEngineAASpr2022" target="_blank">
-      <h3>Advanced Algorithms Project: Kennesaw State University (03/2022)</h3>
-    </a>
+    <h2>Personal Website</h2>
+    <p>This is my personal website built to be a directory of links to projects I have worked on. This website also serves to showcase my knowledge of HTML and CSS.</p>
+    <p><strong>Disclaimer:</strong> This is a work in progress.</p>
+    <h2>Photos</h2>
+    <div class="photos" style="display: flex; flex-wrap: wrap;">
+      <a href="https://github.com/user-attachments/assets/003af456-1171-477c-8e72-4243e2ce3736" target="_blank">
+        <img src="https://github.com/user-attachments/assets/003af456-1171-477c-8e72-4243e2ce3736" width="200" height="230" alt="Photo 1">
+      </a>
+      <a href="https://github.com/user-attachments/assets/95afd1e8-e8a3-4340-a61d-d7a437dfcfb5" target="_blank">
+        <img src="https://github.com/user-attachments/assets/95afd1e8-e8a3-4340-a61d-d7a437dfcfb5" width="200" height="230" alt="Photo 2">
+      </a>
+      <a href="https://github.com/user-attachments/assets/888931a6-0389-412b-967b-9a0f51f20d61" target="_blank">
+        <img src="https://github.com/user-attachments/assets/888931a6-0389-412b-967b-9a0f51f20d61" width="200" height="230" alt="Photo 3">
+      </a>
+    </div>
     <h2>Contact Information</h2>
     <p>Personal Email: <a href="mailto:tuckeryazdani@gmail.com">tuckeryazdani@gmail.com</a></p>
     <h2>Links</h2>
