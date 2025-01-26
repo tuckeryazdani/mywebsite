@@ -24,6 +24,7 @@
       text-decoration: none;
       padding: 0.5rem 1rem;
       display: inline-block;
+      transition: background-color 0.3s ease;
     }
     .topnav a:hover {
       background-color: #575757;
@@ -36,41 +37,63 @@
       line-height: 1.8;
       margin-top: 1rem;
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-      background-color: #fff;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    th, td {
-      padding: 1rem;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    th {
-      background-color: #0078d4;
-      color: white;
-    }
-    tr:hover {
-      background-color: #f1f1f1;
-    }
-    h2 {
+    h1 {
+      font-size: 2rem;
       margin-top: 2rem;
       color: #0078d4;
+      text-align: center;
+    }
+    .content {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
     }
     p {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+    }
+    .tweet {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .tweet h3 {
+      color: #0078d4;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .tweet ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .tweet ul li {
       margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+    .tweet ul li strong {
+      color: #333;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 0;
+      margin-top: 2rem;
+      text-align: center;
+    }
+    footer h2 {
+      margin-bottom: 1rem;
     }
     .social {
       margin: 0 10px;
     }
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 1rem;
+    .links a {
+      margin: 0 10px;
+      display: inline-block;
+    }
+    .contact p {
+      font-size: 1.1rem;
     }
   </style>
 </head>
@@ -81,6 +104,7 @@
     <a href="projects.html">Projects</a>
     <a class="active" href="twitter.html">Twitter</a>
   </div>
+
   <div class="content">
     <div style="display: flex; align-items: center;">
       <p class="bio">
@@ -88,14 +112,14 @@
         B.S. Mathematics (Concentration in Statistics)<br>
       </p>
     </div>
-  <!-- Page Header -->
-  <h1>Twitter Updates</h1>
 
-  <div class="content">
-    <div style="display: flex; align-items: center;">
+    <!-- Page Header -->
+    <h1>Twitter Updates</h1>
+
     <p>
       Below are the top trending stocks on Wall Street Bets, automated and updated weekly via Python and various APIs. These updates include the number of mentions, price changes, and seasonal trends.
     </p>
+
     <!-- Twitter Update Entries -->
     <div class="tweet">
       <h3>Top Trending Stock (2023-08-20)</h3>
@@ -162,3 +186,4 @@
   </footer>
 </body>
 </html>
+
