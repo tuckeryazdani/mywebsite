@@ -1,79 +1,96 @@
 <html>
-<link href="main.css" rel="stylesheet">
-<div class="topnav"> 
-  <a href="https://tuckeryazdani.github.io/">Home</a>
-  <a href="about.html">About</a>
-  <a href="projects.html">Projects</a>
-  <a class="active" href="twitter.html">Twitter</a>
-  </div>
-  <div id='1'>
-  </div>
 <head>
-  <div align="left">
-    <p class="bio">
-      Software Engineer <br>
+  <link href="main.css" rel="stylesheet">
+  <title>Twitter Updates</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="topnav">
+    <a href="https://tuckeryazdani.github.io/">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a class="active" href="twitter.html">Twitter</a>
+  </div>
+
+  <!-- Bio Section -->
+  <div class="bio" align="left">
+    <p>
+      Software Engineer<br>
       B.S. Mathematics (Concentration in Statistics)<br>
     </p>
   </div>
-  <h3>
-Welcome to my project.<br>
-  </h3>
-<br>
-  <p>
-This project is fully automated in Python using various APIs to pull data, get stock market updates depending on that data, and posting that data to Twitter.
-I have updated this program to be able to then take that tweet, add it to the Twitter website HTML page in Python, and then push the changes using git in the os Python library, so that it will now show up here as well for logging purposes.<br>
-<br>
-Twitter links: <br>
-  <a href="https://twitter.com/WSB_Journal" target="_blank"> Wall Street Bets Journal Twitter</a><br>
-  <a href="https://github.com/tuckeryazdani/wsb_journal"> Wall Street Bets Journal Source Code </a>
-<br>
-<p>
-<body>
 
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-08-20)<br><br>Stock: Nvidia<br>48 mention(s) <br><br>$9.11 change in value the past 7 days.<br>Nvidia (NVDA) stock price tends to be lower in the Summer.<br>Next season (Fall) tends to be higher than Summer.<br></blockquote>
+  <!-- Page Header -->
+  <h1>Twitter Updates</h1>
 
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-08-13)<br><br>Stock: Nvidia<br>36 mention(s) <br><br>$-36.6 change in value the past 7 days.<br>Nvidia (NVDA) stock price tends to be lower in the Summer.<br>Next season (Fall) tends to be higher than Summer.<br></blockquote>
+  <!-- Twitter Updates Section -->
+  <div class="twitter-updates">
+    <p>
+      Below are the top trending stocks on Wall Street Bets, automated and updated weekly via Python and various APIs. These updates include the number of mentions, price changes, and seasonal trends.
+    </p>
+    <!-- Twitter Update Entries -->
+    <div class="tweet">
+      <h3>Top Trending Stock (2023-08-20)</h3>
+      <ul>
+        <li><strong>Stock:</strong> Nvidia (NVDA)</li>
+        <li><strong>Mentions:</strong> 48</li>
+        <li><strong>Price Change (7 days):</strong> +$9.11</li>
+        <li><strong>Seasonal Trend:</strong> Stock price tends to be lower in the Summer. Fall prices are typically higher.</li>
+      </ul>
+    </div>
+    <div class="tweet">
+      <h3>Top Trending Stock (2023-08-13)</h3>
+      <ul>
+        <li><strong>Stock:</strong> Nvidia (NVDA)</li>
+        <li><strong>Mentions:</strong> 36</li>
+        <li><strong>Price Change (7 days):</strong> -$36.60</li>
+        <li><strong>Seasonal Trend:</strong> Stock price tends to be lower in the Summer. Fall prices are typically higher.</li>
+      </ul>
+    </div>
+    <div class="tweet">
+      <h3>Top Trending Stock (2023-05-26)</h3>
+      <ul>
+        <li><strong>Stock:</strong> Meta (META)</li>
+        <li><strong>Mentions:</strong> 20</li>
+        <li><strong>Price Change (7 days):</strong> +$15.19</li>
+        <li><strong>Seasonal Trend:</strong> Stock price tends to be lower in the Spring. Summer prices are typically higher.</li>
+      </ul>
+    </div>
+    <div class="tweet">
+      <h3>Top Trending Stock (2023-05-19)</h3>
+      <ul>
+        <li><strong>Stock:</strong> Amazon (AMZN)</li>
+        <li><strong>Mentions:</strong> 29</li>
+        <li><strong>Price Change (7 days):</strong> +$4.07</li>
+        <li><strong>Seasonal Trend:</strong> Stock price tends to be lower in the Spring. Summer prices are typically higher.</li>
+      </ul>
+    </div>
+    <div class="tweet">
+      <h3>Top Trending Stock (2023-05-15)</h3>
+      <ul>
+        <li><strong>Stock:</strong> Meta (META)</li>
+        <li><strong>Mentions:</strong> 16</li>
+        <li><strong>Price Change (7 days):</strong> +$6.08</li>
+        <li><strong>Seasonal Trend:</strong> Stock price tends to be lower in the Spring. Summer prices are typically higher.</li>
+      </ul>
+    </div>
+  </div>
 
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-26)<br><br>Stock: Meta<br>20 mention(s) <br><br>$15.19 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-19)<br><br>Stock: Amazon<br>29 mention(s) <br><br>$4.07 change in value the past 7 days.<br>Amazon (AMZN) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-15)<br><br>Stock: Meta<br>16 mention(s) <br><br>$6.08 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-15)<br><br>Stock: Meta<br>17 mention(s) <br><br>$6.08 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br><br>Highest Change in price: Netflix NFLX $13.13.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-15)<br><br>Stock: Meta<br>16 mention(s) <br><br>$6.08 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br><br>Highest Change in price: Netflix NFLX $+13.13.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-15)<br><br>Stock: Meta<br>16 mention(s) <br><br>$6.08 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br><br>Highest Change in price: Netflix NFLX 13.13.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-15)<br><br>Stock: Meta<br>16 mention(s) <br>$6.08 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-15)<br><br>Stock: Meta<br>17 mention(s) <br>$6.08 change in value the past 7 days.<br>Meta (META) stock price tends to be lower in the Spring by $-1.25.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) stock price tends to be lower in the Spring.<br>Next season (Summer) tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) stock price tends to be lower in the Spring.<br>Next season (Summer) stock price tends to be higher than Springs.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be lower in the Spring.<br>Summer tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be lower in the Spring.<br>Summer tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be lower in the Spring.<br>Summer) tends to be higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be lower in this season (Spring).Next season (Summer) tends to higher than Spring.<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>Top trending stock on Wall Street Bets<br>(2023-05-13)<br><br>Stock: Google<br>40 mention(s) <br>$12.71 change in value the past 7 days.<br>Google (GOOG) tends to be lower in this season (Spring)<br></blockquote>
-
-<br><br> <blockquote class="twitter-tweet"><br>    Top trending stock on Wall Street Bets<br>    (2023-05-10)<br><br>    Stock: Google<br>    25 mention(s) <br>    $6.3 change in value the past 7 days.<br>        </blockquote>
-
-  </body>
-  <center>
-  <h2> Contact Information </h2>
-  <p>
-  Personal Email: tuckeryazdani@gmail.com<br>
-  </p>
-  <h2> Links </h2>
-  <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn">
-  </a><a href="https://github.com/tuckeryazdani/" target="_blank"><img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub"></a>
-  </center>
+  <!-- Footer -->
+  <footer>
+    <div class="contact">
+      <h2>Contact Information</h2>
+      <p>Personal Email: tuckeryazdani@gmail.com</p>
+    </div>
+    <div class="links">
+      <h2>Links</h2>
+      <a href="https://www.linkedin.com/in/tuckeryazdani/" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84822334/148589136-9acd742f-e004-4d54-b1b4-181f8bc7dc98.png" class="social" width="20" height="20" title="LinkedIn">
+      </a>
+      <a href="https://github.com/tuckeryazdani/" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84822334/148658020-ae86cfb7-f259-4503-93fc-156a168d2a9d.png" class="social" width="20" height="20" title="GitHub">
+      </a>
+    </div>
+  </footer>
+</body>
 </html>
