@@ -24,7 +24,6 @@
       text-decoration: none;
       padding: 0.5rem 1rem;
       display: inline-block;
-      transition: background-color 0.3s ease;
     }
     .topnav a:hover {
       background-color: #575757;
@@ -37,40 +36,41 @@
       line-height: 1.8;
       margin-top: 1rem;
     }
-    h1 {
-      font-size: 2rem;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #0078d4;
+      color: white;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    h2 {
       margin-top: 2rem;
       color: #0078d4;
-      text-align: center;
-    }
-    .content {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
     }
     p {
-      margin: 1rem 0;
-      font-size: 1.1rem;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 1rem 0;
-      margin-top: 2rem;
-      text-align: center;
-    }
-    footer h2 {
-      margin-bottom: 1rem;
+      margin: 0.5rem 0;
     }
     .social {
       margin: 0 10px;
     }
-    .links a {
-      margin: 0 10px;
-      display: inline-block;
-    }
-    .contact p {
-      font-size: 1.1rem;
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1rem;
     }
   </style>
 </head>
@@ -78,10 +78,10 @@
   <div class="topnav"> 
     <a href="https://tuckeryazdani.github.io/">Home</a>
     <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a class="active" href="twitter.html">Twitter</a>
+    <a class="active" href="projects.html">Projects</a>
+    <a href="twitter.html">Twitter</a>
   </div>
-
+  
   <div class="content">
     <div style="display: flex; align-items: center;">
       <p class="bio">
